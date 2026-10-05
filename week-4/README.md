@@ -10,6 +10,7 @@ Runs the incident tracker and a PostgreSQL database as a two-service Compose sta
 ## Run it
 \`\`\`
 docker compose up -d --build
+Compose is stopped, and Kubernetes now runs this app.
 \`\`\`
 
 ## Verify
