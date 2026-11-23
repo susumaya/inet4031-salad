@@ -1,0 +1,22 @@
+{"status":"ok"}
+ count |              min              |              max              
+-------+-------------------------------+-------------------------------
+     4 | 2026-10-08 01:57:00.059217+00 | 2026-11-05 01:29:24.761776+00
+(1 row)
+
+NAME   STATUS   ROLES           AGE   VERSION
+susu   Ready    control-plane   52d   v1.36.4+k3s1
+NAMESPACE     NAME                                             READY   STATUS      RESTARTS         AGE
+default       db-68dc786d-xtdck                                1/1     Running     2 (7d3h ago)     7d7h
+default       db-exporter-5bd684db7b-h8sf4                     1/1     Running     3 (7d3h ago)     17d
+default       web-7b876d4578-bgfmh                             1/1     Running     1 (11m ago)      7d5h
+kube-system   coredns-54996dc9b4-gm5lc                         1/1     Running     63 (4m38s ago)   52d
+kube-system   helm-install-traefik-85kqd                       0/1     Completed   3 (52d ago)      52d
+kube-system   helm-install-traefik-crd-zlbvx                   0/1     Completed   0                52d
+kube-system   local-path-provisioner-77b9867795-xdqpb          1/1     Running     12 (7d3h ago)    52d
+kube-system   metrics-server-6dc596dfb8-hx4fs                  1/1     Running     72 (7d3h ago)    52d
+kube-system   svclb-traefik-c8cd667a-js9l8                     2/2     Running     24 (7d3h ago)    52d
+kube-system   traefik-59b7647586-9pwpt                         1/1     Running     56 (7d3h ago)    52d
+monitoring    prometheus-kube-state-metrics-86f6b846bf-6s7vw   1/1     Running     37 (7m6s ago)    35d
+monitoring    prometheus-prometheus-node-exporter-q9d69        1/1     Running     44 (7m7s ago)    35d
+monitoring    prometheus-server-6944b769c9-t66g7               2/2     Running     43 (8m17s ago)   27d
