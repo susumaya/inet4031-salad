@@ -1,0 +1,5 @@
+Python 3.14.4
+pandas 3.1.1
+matplotlib 3.11.2
+scipy 1.18.1
+csvstat 2.2.0
